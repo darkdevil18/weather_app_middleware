@@ -2,8 +2,7 @@ import requests
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
-from api_key import api_key
-
+api_key = "92c3455c231da84ffd5e9da4dcfc1d4c"
 app = FastAPI()
 
 origins = [
