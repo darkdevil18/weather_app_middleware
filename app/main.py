@@ -2,12 +2,11 @@ import requests
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
-api_key = "92c3455c231da84ffd5e9da4dcfc1d4c"
+api_key = "YOUR_API_KEY"
 app = FastAPI()
 
 origins = [
 	'http://localhost:3000',
-	'https://myweather-app-project.herokuapp.com'
 ]
 
 app.add_middleware(
